@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="data.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
+  <div class="main-bar">
+    video and images data entry page
+  </div>
+    <div class="page">
+      <form onsubmit="submit()" action="data.js" method="dialog" reset="true">
+      Subject:<input type="text" id="sub"><br>
+      lang: <input type="text" id="lang"><br>
+      time: <input type="time" id="time"><br>
+      file-name:<input type="text" id="src">
+      <span>drag and drop</span>
+      <div class="file"><input type="file" name="file" id="file">
+      </div><input type="submit" value="submit">
+    </form>
+    </div>
+    <script src="data.js"></script>
+</body>
+</html>

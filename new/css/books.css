@@ -1,0 +1,97 @@
+.book-self{
+    background-color: #cfcfcf;
+    width: 100vw;
+}
+.books{
+    width: 100vw;
+    background-color: #fff;
+}
+#scroll{
+    position: absolute;
+    left: 0;
+}
+.books ul{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+.books ul li{
+    width: 8%;
+    padding:1.5vw 1vw;
+    text-align: center;
+    list-style-position: outside;
+    color:rgb(255, 255, 255);
+    background: rgb(66, 159, 247);
+    margin: 1vw;
+    border-radius:.5vw ;
+    text-transform: uppercase;
+    font-weight: 900; 
+    transition: all 1s;
+    text-wrap: wrap;
+} 
+.books ul li:hover{
+    transform:scale(1.1,1.1) rotateY(-30deg) skewX(-10deg);
+    text-shadow: 1px 1px 3px 1px grey;
+}
+iframe{
+    background-color: #ffffff4d;
+    margin: 1vw;
+    position:absolute;
+    width: 55vw;
+    height: 60vh;
+    right: 0;
+    box-shadow:1px 1px 5px 5px rgb(196, 193, 193);
+}
+.books-list{
+    position: absolute;
+    width: 40vw;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+.books-list ul{
+    width: 80%;
+    list-style: none;
+    border-radius: .5vw;
+    text-align: center;
+}
+.books-list ul li{
+    background-color: #cfcfcf;
+    width: 100%;
+    padding: 1vw;
+    outline: 2px solid khaki;
+    color: blue;
+    font-weight: 800;
+    transition: all 1s;
+}
+.books-list ul li:hover{
+    transform: translateX(15%) scale(1.05,1.05);
+}
+.books-list ul li ul{
+    position: absolute;
+    display: none;
+    transform-origin: top;
+    transition:all 1s;
+}
+.books-list ul li:hover ul{
+    display: block;
+    opacity: 1;
+    margin-top: 1vw;
+}
+.course{
+    width: 100vw;
+    min-height:fit-content ;
+}
+.course span{
+    text-align: center;
+    color:cornflowerblue ;
+    font-size: 4vw;
+    font-weight: 900;
+    text-align: center;
+    text-transform:uppercase;
+}
+

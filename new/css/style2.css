@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 100vw;
+  background-color: rgb(84, 81, 81);
+  min-height: 100vh;
+}
+.videoPlayer{
+  background-color: #000;
+  width: 50vw;
+  border-radius: .5vw;
+  position: relative;
+  min-height:60vh;
+}
+video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.bar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: .5vw;
+  background-color: white;
+  bottom: 0;
+}
+.tumb{
+ height: 50%;
+ width: 0;
+ background-color: red;
+ transform-style: preserve-3d;
+ transition: width 4.5s linear;
+}
+#play{
+  position: absolute;
+  bottom:5%;
+}
